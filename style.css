@@ -1,7 +1,7 @@
-/** {
-	outline: red 1px solid;
+* {
+	/*outline: red 1px solid;*/
 	-webkit-box-sizing:border-box;
-}*/
+}
 
 body {
 	padding: 30px;
@@ -73,7 +73,8 @@ body {
 	text-align: center;
 }
 .items-field {
-	padding: 5px 15px; 
+/*	padding: 5px 15px; */
+	margin: 0 auto 0 auto;
 	background-color: #464646;
 	border-radius: 8px;
 	width: 400px;
@@ -85,4 +86,27 @@ input::-webkit-input-placeholder {
 }
 input:focus::-webkit-input-placeholder {
 	color: transparent;	
+}
+.list {
+	margin-top: 30px;
+}
+/*Javascript*/
+li {
+	position: relative;
+	left: -18px;
+	background-color: #8E8E8E;
+	margin: 15px auto 0 auto;
+	list-style-type: none;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #3D3D3D;
+	padding: 8px;
+	border-radius: 8px;
+	width: 400px;
+}
+.delete {
+	background-image: url("../img/delete.jpg");
+	height: 20px;
+	width: 20px;
 }
