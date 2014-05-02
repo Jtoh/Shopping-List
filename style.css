@@ -86,3 +86,20 @@ input::-webkit-input-placeholder {
 input:focus::-webkit-input-placeholder {
 	color: transparent;	
 }
+
+/*Javascript*/
+li {
+	position: relative;
+	left: -18px;
+	text-align: center;
+	margin: 10px auto 0 auto;
+	background-color: #999999;
+	border-radius: 8px;
+	color: white;
+	padding: 8px;
+	width: 400px;
+}
+.delete {
+	float: right;
+	background: url("../img/delete.png");
+}
