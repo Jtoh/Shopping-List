@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
 $('.items-field').keypress(function(event) {
 	var list = $('.list-items');
 	var item = $(this).val();
@@ -9,6 +8,9 @@ $('.items-field').keypress(function(event) {
 		$(this).val('');
 	}
 });
-
-
 });
+
+$(document).on('click', '.delete', function() {
+	$(this).closest('li').fadeOut(300);
+});
+
