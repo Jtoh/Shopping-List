@@ -17,4 +17,5 @@ $(document).on('click', '.delete', function() {
 
 $(document).on('dblclick', 'li', function() {
 	$(this).toggleClass('new');
+	$('.delete').remove();
 });
