@@ -8,9 +8,13 @@ $('.items-field').keypress(function(event) {
 		$(this).val('');
 	}
 });
+
 });
 
 $(document).on('click', '.delete', function() {
 	$(this).closest('li').fadeOut(300);
 });
 
+$(document).on('dblclick', 'li', function() {
+	$(this).toggleClass('.new');
+});

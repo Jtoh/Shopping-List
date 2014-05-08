@@ -106,3 +106,8 @@ li {
 	width:20px;
 	background: url(img/delete.png);
 }
+.new{
+	background-color: black;
+	color: white;
+	
+}
